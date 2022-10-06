@@ -1,33 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-    <style>
-        body{
-            background-color: rgb(0, 0, 0);
-        }
-        h1, ul{
-            color: rgb(178, 250, 72);
-        }
-    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista</title>
+    <title>Document</title>
+    <script>
+        window.onload = roda;
+
+        function roda()
+        {
+            var segundo = document.getElementById("segundo");
+            segundo.innerHTML = "JS rodando!";
+        }   
+    </script>
 </head>
 <body>
-    
-    <h1>Livros Preferidos</h1>
-    <ul>
-        <li>O Príncipe Cruel</li>
-        <li>O Rei Perverso</li>
-        <li>A Rainha do Nada</li>
-        <li>Cidade dos Ossos</li>
-        <li>Cidade das Cinzas</li>
-        <li>Cidade de Vidro</li>
-        <li>Cidade dos Anjos Caídos</li>
-        <li>Cidade das Almas Perdidas</li>
-        <li>Cidade do Fogo Celestial</li>
-    </ul>
-
+    <h1 id = "primeiro">Olá</h1>
+    <h1 id = "segundo">Aprendendo JS</h1>
 </body>
 </html>
